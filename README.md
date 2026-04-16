@@ -9,14 +9,26 @@ Basic:
 
 Tools:
 
-- [Zellij](https://zellij.dev/). Replacement for Screen or Tmux.
+- [Zellij](https://zellij.dev/). Replacement for Screen or Tmux. The floating pane function is super helpful.
 - [btop](https://github.com/aristocratos/btop). Replacement for top or htop.
 - [zoxide](https://github.com/ajeetdsouza/zoxide). `z` or `zi` - replacement for cd.
 - [bat](https://github.com/sharkdp/bat). Replacement for cat.
 - [ripgrep](https://github.com/burntsushi/ripgrep). `rg` - replacement for grep (much faster).
-- [fd](https://github.com/sharkdp/fd). Replacement for find.
+- [fd](https://github.com/sharkdp/fd). Replacement for find. Simpler syntax.
 - [fzf](https://github.com/junegunn/fzf). Fuzzy search. Funky that I find it replace the cmd history search on Ctrl+r
 
 CSV processing:
 
 - [xan](https://github.com/medialab/xan). Powerful, concepts similar to dplyr.
+
+
+## Setting up
+
+### For zsh (`.zshrc`)
+
+```bash
+eval "$(starship init zsh)"
+eval "$(zoxide init zsh)"
+source <(fzf --zsh)
+```
+
