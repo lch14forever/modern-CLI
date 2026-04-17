@@ -15,7 +15,7 @@ Tools:
 - [bat](https://github.com/sharkdp/bat). Replacement for cat.
 - [ripgrep](https://github.com/burntsushi/ripgrep). `rg` - replacement for grep (much faster).
 - [fd](https://github.com/sharkdp/fd). Replacement for find. Simpler syntax.
-- [fzf](https://github.com/junegunn/fzf). Fuzzy search. Funky that I find it replace the cmd history search on Ctrl+r
+- [fzf](https://github.com/junegunn/fzf). Fuzzy search. It replaces the cmd history search using Ctrl+r.
 
 CSV processing:
 
