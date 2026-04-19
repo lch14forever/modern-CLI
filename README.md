@@ -32,3 +32,30 @@ eval "$(zoxide init zsh)"
 source <(fzf --zsh)
 ```
 
+### For bash (`.bashrc`)
+
+```bash
+export PATH="$HOME/.local/bin:$PATH" ## The software path need to be executed before initializing them
+eval "$(starship init bash)"
+eval "$(zoxide init bash)"
+eval "$(fzf --bash)"
+```
+
+### Useful aliases
+
+```bash
+# Use the modern replacements
+alias cat='bat'
+alias grep='rg'
+alias find='fd'
+alias top='btop'
+
+alias ls='eza'
+alias ll='eza -lAh --group-directories-first'
+alias l='eza -F --group-directories-first'
+alias lt='eza -T -L 2 --group-directories-first'
+
+export FZF_DEFAULT_COMMAND='fd --type f'
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+export FZF_ALT_C_COMMAND='fd --type d'
+```
