@@ -30,6 +30,8 @@ Tools:
 
 - [fzf](https://github.com/junegunn/fzf). Fuzzy search. It replaces the cmd history search using Ctrl+r.
 
+- [eza](https://github.com/eza-community/eza). Replacement for ls.
+
 CSV processing:
 
 - [xan](https://github.com/medialab/xan). Powerful, concepts similar to dplyr.
@@ -44,7 +46,7 @@ CSV processing:
 #### Using cargo (rust)
 
 ```
-cargo install starship zellij zoxide bat ripgrep fd-find xan
+cargo install starship zellij zoxide bat ripgrep fd-find xan eza
 ```
 
 We can use [cargo binstall](https://github.com/cargo-bins/cargo-binstall) to avoid compilation.
